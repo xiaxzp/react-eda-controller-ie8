@@ -1,0 +1,13 @@
+在redux添加请求：
+action: 定义export type
+        定义export function
+reducer:import action中的type
+        initState添加对象
+        Switch添加方法
+组件:   import action中的新方法
+        connect中第一个参数添加xxx:state.(reducer name).对象
+        connect中第二个参数添加action/dispatch
+        this.props.方法.then((e)=>{this.props.xxx})
+        
+react组件开头一定要大写！！
+this.state => 内变量

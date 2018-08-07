@@ -1,0 +1,29 @@
+.IntergrationRoom_father{
+}
+.search_container{
+    padding-top: 20px;
+    overflow: hidden;
+}
+.searchNameOrAddress,.selectProtocol{
+    float:left;
+    margin-left: 10px;
+    width: 150px;
+}
+.CreateTarget{
+    float:right;
+    margin-right: 10px;
+    width: 70px;
+}
+.table_container{
+    margin: 20px 10px;
+}
+.table_container table{
+    table-layout:auto;
+    border-collapse:collapse;
+    width: 100%;
+}
+.table_container table th, .table_container table td{
+    box-sizing:border-box;
+    border: 1px solid black;
+    text-align: center;
+}
