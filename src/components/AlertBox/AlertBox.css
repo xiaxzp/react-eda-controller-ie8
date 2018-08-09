@@ -1,0 +1,8 @@
+.jumpBox{
+    width:100px;
+    height: 70px;
+    top:30%;
+    left:40%;
+    position: absolute;
+    background-color: white;
+}

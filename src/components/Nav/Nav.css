@@ -1,0 +1,25 @@
+.navigator_container{
+    overflow: hidden;
+    width: 150px;
+    float:left;
+}
+.navigator_container div{
+    text-align: center;
+}
+.navigator_container span{
+    display: block;
+}
+.FatherClass{
+    height: 100px;
+    border: 1px solid black;
+}
+.FatherClass span{
+    padding-top:38px;
+}
+.ChildClass{
+    height: 60px;
+    border: 1px solid black;
+}
+.ChildClass span{
+    padding-top: 18px;
+}

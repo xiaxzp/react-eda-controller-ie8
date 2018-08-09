@@ -1,0 +1,33 @@
+.darkBackground{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left:0px;
+    top:0px;
+    background-color: rgba(0,0,0,0.7);
+}
+.jumpBox{
+    width:50%;
+    height: 50%;
+    top:20%;
+    left:25%;
+    position: absolute;
+    background-color: white;
+    overflow: auto;
+}
+.closeBtn{
+    float: right;
+}
+.deleteItem{
+    float: right;
+    margin-right: 10px;
+}
+ul{
+    list-style-type:decimal-leading-zero;
+}
+li{
+    margin-top: 10px;
+}
+.addBox {
+    display: inline;
+}

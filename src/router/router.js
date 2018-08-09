@@ -11,6 +11,7 @@ import Counter from 'bundle-loader?lazy&name=counter!pages/Counter/Counter';
 import UserInfo from 'bundle-loader?lazy&name=userInfo!pages/UserInfo/UserInfo';
 import NotFound from 'bundle-loader?lazy&name=notFound!pages/NotFound/NotFound';
 import IntergrationRoomList from 'bundle-loader?lazy&name=intergrationRoomList!pages/IntergrationRoomList/IntergrationRoomList';
+import UserList from 'bundle-loader?lazy&name=intergrationRoomList!pages/UserList/UserList'
 
 const createComponent = (component) => (props) => (
     <Bundle load={component}>
@@ -28,6 +29,7 @@ export default () => (
             <Route path="/counter" component={createComponent(Counter)}/>
             <Route path="/userinfo" component={createComponent(UserInfo)}/>
             <Route path="/intergrationRoomList" component={createComponent(IntergrationRoomList)}/>
+            <Route path="/userList" component={createComponent(UserList)}/>
             <Route component={createComponent(NotFound)}/>
         </Switch>
     </div>

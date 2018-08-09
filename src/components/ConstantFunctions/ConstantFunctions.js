@@ -13,6 +13,7 @@ export default function(){
     }
     warper.addHandler = function(element,type,handler){
         if(element.addEventListener){//检测是否为DOM2级方法
+            console.log('addevent')
             element.addEventListener(type, handler, false);
         }else if (element.attachEvent){//检测是否为IE级方法
             element.attachEvent("on" + type, handler);
@@ -22,6 +23,7 @@ export default function(){
     }
     warper.removeHandler = function(element, type, handler){
         if (element.removeEventListener){
+            console.log('removeevent')
             element.removeEventListener(type, handler, false);
         } else if (element.detachEvent){
             element.detachEvent("on" + type, handler);

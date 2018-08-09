@@ -8,6 +8,12 @@ reducer:import action中的type
         connect中第一个参数添加xxx:state.(reducer name).对象
         connect中第二个参数添加action/dispatch
         this.props.方法.then((e)=>{this.props.xxx})
+        通过connect export class
         
 react组件开头一定要大写！！
 this.state => 内变量
+
+Dom绑定方法：1.construct this.func = this.func.bind(this)
+            2.()=>this.func
+
+reducer传递props时，connect数组无法触发刷新
